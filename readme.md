@@ -18,10 +18,10 @@ Python version 3.12.4
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/Tobias0013/ml_project_group_8.git
 
 # Navigate to the project directory
-cd yourproject
+cd ml_project_group_8
 
 # Create virtual environment
 python -m venv venv
