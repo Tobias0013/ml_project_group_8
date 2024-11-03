@@ -21,7 +21,7 @@ Python version 3.12.4
 git clone https://github.com/Tobias0013/ml_project_group_8.git
 
 # Navigate to the project directory
-cd ml_project_group_8
+cd ml_project_group_8/web
 
 # Create virtual environment
 python -m venv venv
