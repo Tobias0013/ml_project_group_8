@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 8 Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <header>
+        <h1>Project group 8 prediction</h1>
+        <p>The model predicts node temperature</p>
+        <p>(default values is a row from our X_test)</p>
+    </header>
+    <div id="form">
+        <form>
+            <label for="cpu_allocation_efficiency">CPU Allocation Efficiency (Float):</label>
+            <input type="text" id="cpu_allocation_efficiency" name="cpu_allocation_efficiency" value="0.597308986"><br>
+        
+            <label for="memory_allocation_efficiency">Memory Allocation Efficiency (Float):</label>
+            <input type="text" id="memory_allocation_efficiency" name="memory_allocation_efficiency" value="0.35329184"><br>
+        
+            <label for="disk_io">Disk I/O (Float):</label>
+            <input type="text" id="disk_io" name="disk_io" value="666.0098057"><br>
+        
+            <label for="node_cpu_usage">Node CPU Usage (Float):</label>
+            <input type="text" id="node_cpu_usage" name="node_cpu_usage" value="55.13999613"><br>
+        
+            <label for="node_memory_usage">Node Memory Usage (Float):</label>
+            <input type="text" id="node_memory_usage" name="node_memory_usage" value="32.3140218"><br>
+        
+            <label for="cpu_request">CPU Request (Float):</label>
+            <input type="text" id="cpu_request" name="cpu_request" value="1.5151272156149198"><br>
+        
+            <label for="cpu_limit">CPU Limit (Float):</label>
+            <input type="text" id="cpu_limit" name="cpu_limit" value="0.5366306723940306"><br>
+        
+            <label for="memory_request">Memory Request (Float):</label>
+            <input type="text" id="memory_request" name="memory_request" value="1183.4286644853166"><br>
+        
+            <label for="memory_limit">Memory Limit (Float):</label>
+            <input type="text" id="memory_limit" name="memory_limit" value="6163.6197223284735"><br>
+        
+            <label for="cpu_usage">CPU Usage (Float):</label>
+            <input type="text" id="cpu_usage" name="cpu_usage" value="0.9687976425514012"><br>
+        
+            <label for="memory_usage">Memory Usage (Float):</label>
+            <input type="text" id="memory_usage" name="memory_usage" value="2698.4013693655243"><br>
+        
+            <label for="restart_count">Restart Count (Integer):</label>
+            <input type="text" id="restart_count" name="restart_count" value="1"><br>
+        
+            <label for="uptime_seconds">Uptime Seconds (Integer):</label>
+            <input type="text" id="uptime_seconds" name="uptime_seconds" value="40527"><br>
+        
+            <label for="network_bandwidth_usage">Network Bandwidth Usage (Float):</label>
+            <input type="text" id="network_bandwidth_usage" name="network_bandwidth_usage" value="786.4419971231081"><br>
+        
+            <input type="submit" value="Submit">
+            <h2 id="predict"></h2>
+        </form>
+    </div>
+</body>
+</html>
